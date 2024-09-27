@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Meu Site</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para CSS -->
+</head>
+<body>
+<main>
+<header>
+    <h1>Bem-vindo ao Recanto Nerd</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html" target="_blank">Login</a></li>
+            <li><a href="#monte seu pc">MONTE SEU PC</a></li>
+            <li><a href="#HARDWARES">HARDWARES</a></li>
+            <li><a href="#CELULARES">CELULARES</a></li>
+            <li><a href="#JOGOS">JOGOS</a></li>
+            <li><a href="#VIDEO GAMES">VIDEO GAMES</a></li>
+            <li><a href="#CONTROLES">CONTROLES</a></li>
+            <li><a href="#OFERTAS DO DIA">OFERTAS DO DIA</a></li>
+        </ul>
+    </nav>
+    
+</header>
+
+<section id="banner">
+    <h2>Banner Principal</h2>
+    <img src="banner.jpg" alt="Banner do site">
+</section>
+
+<section id="Ofertas do Dia">
+    <h2>Ofertas do dia</h2>
+    <p>Confira nossas ofertas!</p>
+    <div class="destaque-item">Produto 1</div>
+    <div class="destaque-item">Produto 2</div>
+    <div class="destaque-item">Produto 3</div>
+</section>
+<section id="novidades"></section>
+    <h2>Novidades</h2>
+    <ul>
+        <li>Conheça o novo lançamento da apple!</li>
+        <li>Conheça o novo PlayStation</li>
+        <li>Novos Jogos</li>
+    </ul>
+</section>
+
+<section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria-item">PlayStation 5</div>
+    <img src="ps5.jpg" alt="PlayStation 5">
+    <div class="galeria-item">The last of us</div>
+    <img src="thelast.jpg" alt="The last of us">
+    <div class="galeria-item">PC Gamer</div>
+    <img src="pcgamer.jpg" alt="PCgamer">
+</section>
+</body>
+</main>
+<footer>
+    <p> SAC 4005 4005 4005</p>
+    <p><a href="depoimento" target="_blank">Clique aqui para ver os depoimentos dos nossos</a></p>
+    <p>&copy; 2024 Recanto Nerd. Todos os direitos reservados.</p>
+</footer>
+</html>
